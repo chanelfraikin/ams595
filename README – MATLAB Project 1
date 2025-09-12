@@ -1,15 +1,13 @@
-This project estimates π using Monte Carlo simulation with three different approaches, all contained in project1.m.
+This project estimates pi using the Monte Carlo algorithm. 
 
 How to Use
 
-Open project1.m in MATLAB.
+1. Open project1.m in MATLAB.
 
-The file has three sections (Task 1, Task 2, Task 3).
+2. The file has three sections (Task 1, Task 2, Task 3). Run each section individually:
 
-Run each section individually:
+Task 1: Uses a for loop with a fixed number of points, plots convergence, and computational cost.
 
-Task 1: Uses a for loop with a fixed number of points, plots convergence, and compares precision vs. computational cost.
+Task 2: Uses a while loop to reach a user-specified precision and reports the number of iterations.
 
-Task 2: Uses a while loop to reach a user-specified precision (without using pi) and reports the number of iterations.
-
-Task 3: Turns Task 2 into a function with live plotting and displays the final result on the graph.
+Task 3: Turns Task 2 into a function and displays the final result on the graph.
